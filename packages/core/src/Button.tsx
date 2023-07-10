@@ -1,6 +1,14 @@
-import { ReactElement } from "react";
-import { primary } from "@core/color";
+import { FC, PropsWithChildren } from "react";
 
-export const Button = (): ReactElement => {
-  return <button style={{ backgroundColor: primary }}>Click Me</button>;
+interface Props extends PropsWithChildren {
+  className?: string;
+  style?: object;
+}
+
+export const Button: FC<Props> = (props) => {
+  return (
+    <button style={props.style} className={props.className}>
+      {props.children}
+    </button>
+  );
 };
