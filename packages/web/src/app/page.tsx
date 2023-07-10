@@ -4,6 +4,7 @@ import { Button } from "@pnpm-test/core";
 export default function Home() {
   return (
     <main className={styles.main}>
+      <h1>여기는 web이고 next로 구성됩니다.</h1>
       <Button
         style={{
           backgroundColor: "red",
@@ -13,7 +14,7 @@ export default function Home() {
         }}
         className="card"
       >
-        test123
+        테스트용 버튼
       </Button>
     </main>
   );
