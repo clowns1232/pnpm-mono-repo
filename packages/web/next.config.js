@@ -1,3 +1,3 @@
 module.exports = {
-  transpilePackages: ["shared"],
+  transpilePackages: ["somemodule", "and-another"],
 };

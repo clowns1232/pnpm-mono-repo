@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import { Button } from "@pnpm-test/core";
+import { Button as MultButton } from "../../../../mult-repo/src/Button";
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -17,6 +19,7 @@ export default function Home() {
       >
         테스트용 버튼
       </Button>
+      <MultButton />
     </main>
   );
 }
