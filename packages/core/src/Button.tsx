@@ -11,7 +11,7 @@ export const Button: FC<Props> = (props) => {
     <button
       style={props.style}
       className={props.className}
-      onClick={() => alert("test")}
+      onClick={() => alert("react입니다.")}
     >
       {props.children} / 나는 core에서 react로 출력하고 있습니다.
     </button>

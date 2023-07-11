@@ -11,6 +11,7 @@ export default function Home() {
           width: "100px",
           height: "100px",
           color: "white",
+          cursor: "pointer",
         }}
         className="card"
       >
