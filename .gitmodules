@@ -1,0 +1,3 @@
+[submodule "mult-repo"]
+	path = mult-repo
+	url = https://github.com/clowns1232/mult-repo.git
