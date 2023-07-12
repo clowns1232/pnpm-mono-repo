@@ -30,6 +30,9 @@
       "@core/*": [
         "../core/src/*"
       ],
+      "@lagacy/*": [
+        "../lagacy/src/*"
+      ],
     }
   },
   "include": [
